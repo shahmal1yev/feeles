@@ -1,0 +1,41 @@
+.btn-outline-dark-blue {
+	color: #152233;
+	border-color: #152233;
+}
+
+.btn-outline-dark-blue:hover {
+	color: #fff;
+	background-color: #152233;
+	border-color: #152233;
+}
+
+.btn-check:focus + .btn-outline-dark-blue, .btn-outline-dark-blue:focus {
+	box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+}
+
+.btn-check:checked + .btn-outline-dark-blue, .btn-check:active + .btn-outline-dark-blue, .btn-outline-dark-blue:active, .btn-outline-dark-blue.active, .btn-outline-dark-blue.dropdown-toggle.show {
+	color: #fff;
+	background-color: #152233;
+	border-color: #152233;
+}
+
+.btn-check:checked + .btn-outline-dark-blue:focus, .btn-check:active + .btn-outline-dark-blue:focus, .btn-outline-dark-blue:active:focus, .btn-outline-dark-blue.active:focus, .btn-outline-dark-blue.dropdown-toggle.show:focus {
+	box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+}
+
+.btn.serious {
+	border-radius: 0;
+	box-shadow:0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.animating-btn.action {
+	position: relative;
+	animation-duration: 5s;
+	animation-delay: .2s;
+	animation-timing-function: ease-in-out;
+}
+
+.animating-btn.action:hover {
+	animation-name: shake;
+	animation-iteration-count: infinite;
+}
